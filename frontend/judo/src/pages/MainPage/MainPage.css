@@ -1,0 +1,31 @@
+.tabs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    border-radius: 5px 5px 0 0;
+    margin-right: 10px;
+  }
+  
+  .tab:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .tab-content {
+    display: none;
+  }
+  
+  .content h2 {
+    margin-top: 0;
+  }
+  
+  .content.show .tab-content {
+    display: block;
+  }
+  
