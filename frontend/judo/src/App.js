@@ -1,13 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-import HomePage from './pages/HomePage/HomePage';
+import LoginPage from './pages/LoginPage/LoginPage';
+import MainPage from './pages/MainPage/MainPage';
 
 function App() {
+  const handleLogin = (email, password) => {
+    // 로그인 로직을 구현하세요.
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <HomePage></HomePage>
-      </header>
+    <div>
+      {/* <h1>회원 관리 프로그램</h1>
+      <LoginPage onLogin={handleLogin} /> */}
+      <MainPage />
     </div>
   );
 }
